@@ -1,0 +1,47 @@
+h1 {
+    text-align: center;
+    margin: 40px;
+}
+
+section{
+    border: solid 1px black;
+    background: white;
+    padding: 5%;
+    width: 70%;
+    margin: auto;
+}
+
+h2 {
+    padding-bottom: 0%;
+    margin-bottom: 10px;
+}
+
+#password {
+    display: block;
+    margin: 0;
+    border: dashed 3px grey;
+    border-radius: 5px;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    padding-top: 15px;
+}
+
+button {
+    padding: 5px;
+    background: rgb(245, 42, 42);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    display: block;
+    margin: auto;
+    width: 50%;
+    height: 150%;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 768px){
+    #generate{
+        margin-bottom: 2px;
+    }
+}
